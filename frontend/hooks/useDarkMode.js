@@ -1,8 +1,9 @@
 import { useState } from 'react';
 
 const useDarkMode = () => {
-    const [darkOn, setDarkOn] = useState(false);
+    const [darkMode, setDarkMode] = useState(false);
     
+    return([darkMode, setDarkMode]);
 };
 
 export default useDarkMode;
